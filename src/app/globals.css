@@ -16,6 +16,13 @@
   }
 }
 
+@font-face {
+  font-family: 'FS-Tahoma';
+  src: url('/fonts/fs-tahoma-8px.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,6 +31,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-family: 'FS-Tahoma', sans-serif;
 }
 
 @layer utilities {
